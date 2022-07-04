@@ -11,4 +11,5 @@ paibody.appendChild(paiSection2);
     }
 }criarDiv();
 
-
+const divCor1=document.getElementById("cor-1");
+divCor1.classList.add('selected');
