@@ -11,5 +11,36 @@ paibody.appendChild(paiSection2);
     }
 }criarDiv();
 
-const divCor1=document.getElementById("cor-1");
-divCor1.classList.add('selected');
+
+
+
+
+
+const cor1=document.querySelector('#cor-1');
+cor1.classList.add('selected');           //requisito6
+
+const cor2=document.querySelector('#cor-2');
+const cor3=document.querySelector('#cor-3');
+const cor4=document.querySelector('#cor-4');
+
+cor1.addEventListener('click',selecionaCor);
+cor2.addEventListener('click',selecionaCor);
+cor3.addEventListener('click',selecionaCor);
+cor4.addEventListener('click',selecionaCor);
+
+function selecionaCor(event) {
+    let selecCor = document.querySelector('.selected');
+    selecCor.classList.remove("selected");
+    event.target.classList.add("selected");
+}
+
+
+
+
+
+
+
+
+
+
+
