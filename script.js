@@ -50,6 +50,11 @@ event.target.style.backgroundColor=selecCor;
         divPixel[index].style.backgroundColor='white';
         }
     });
+
+
+
+
+
         
   
 
